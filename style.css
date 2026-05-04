@@ -1,0 +1,137 @@
+@font-face{
+  font-family: "Barlow";
+  src: url("./Barlow-Black.otf") format("Barlow");
+  font-weight: normal;
+  font-style: normal;
+}
+.design{
+  position: relative;
+}
+.bg {
+  float: left;
+  width: 700px;
+  height: 800px;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.logo{
+  position: absolute;
+  top: 80px;          
+  left: 120px;         
+  width: 200px;        
+  opacity: 0.8;    
+}
+.first{
+    border-radius: 50px solid transparent;
+    background-color: #FFFFFF;
+    font-family: "Barlow";
+}
+body{
+    background-color: #EFF6FF;
+    font-family: "Barlow";
+}
+h2{
+    font-size: 24px;
+    color:#7B8A92;
+    text-align: left;
+    padding-top: 100px;
+    font-family: "Barlow";
+    margin: 20px;
+}
+h3{
+    font-size: 20px;
+    color:#7B8A92;
+    text-align: left;
+}
+.facebook{
+  background-color:#255A9B;
+  font-size: 10px;
+  float: center;
+  color: #FFFFFF;
+  display: inline-flex; /* Используем flexbox для выравнивания */
+  align-items: center;  /* Центрируем иконку и текст по вертикали */
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+.button-facebook{
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 20px;
+  background-image: url('./facebook.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Linkedin{
+  background-color: #0076B6;
+  font-size: 10px;
+  float: center;
+  color: #FFFFFF;
+  display: inline-flex; /* Используем flexbox для выравнивания */
+  align-items: center;  /* Центрируем иконку и текст по вертикали */
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 35px;
+}
+.button-Linkedin {
+  content: "";
+  position: absolute;
+  left: 10px; /* Позиция от левого края */
+  top: 50%;
+  transform: translateY(-50%); /* Центрирование по вертикали */
+  width: 30px;
+  height: 20px;
+  background-image: url('./linkedin.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #AFAFAF;
+    padding-left: 100px;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex-shrink: 2; /* Линия будет сжиматься быстрее, чем другие элементы */
+  width: 100px;
+    border-bottom: 2px solid #EEEEEE; /* Цвет линии */
+  }
+
+  .divider:not(:empty)::before {
+    margin-right: .5em; /* Отступ текста от левой линии */
+  }
+
+  .divider:not(:empty)::after {
+    margin-left: .5em; /* Отступ текста от правой линии */
+  }
+
+.input-group {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Label над input */
+    width: 250px;
+  }
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .input-group input {
+    border: 1px solid #aaa;
+    padding: 5px;
+  }
