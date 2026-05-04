@@ -50,8 +50,8 @@ h3{
   font-size: 10px;
   float: center;
   color: #FFFFFF;
-  display: inline-flex; /* Используем flexbox для выравнивания */
-  align-items: center;  /* Центрируем иконку и текст по вертикали */
+  display: inline-flex;
+  align-items: center;
   padding: 10px 30px;
   cursor: pointer;
   position: relative;
@@ -77,8 +77,8 @@ h3{
   font-size: 10px;
   float: center;
   color: #FFFFFF;
-  display: inline-flex; /* Используем flexbox для выравнивания */
-  align-items: center;  /* Центрируем иконку и текст по вертикали */
+  display: inline-flex; 
+  align-items: center; 
   padding: 10px 30px;
   cursor: pointer;
   position: relative;
@@ -87,9 +87,9 @@ h3{
 .button-Linkedin {
   content: "";
   position: absolute;
-  left: 10px; /* Позиция от левого края */
+  left: 10px;
   top: 50%;
-  transform: translateY(-50%); /* Центрирование по вертикали */
+  transform: translateY(-50%);
   width: 30px;
   height: 20px;
   background-image: url('./linkedin.svg');
@@ -107,24 +107,24 @@ h3{
   .divider::before,
   .divider::after {
     content: '';
-    flex-shrink: 2; /* Линия будет сжиматься быстрее, чем другие элементы */
+    flex-shrink: 2;
   width: 100px;
-    border-bottom: 2px solid #EEEEEE; /* Цвет линии */
+    border-bottom: 2px solid #EEEEEE;
   }
 
   .divider:not(:empty)::before {
-    margin-right: .5em; /* Отступ текста от левой линии */
+    margin-right: .5em;
   }
 
   .divider:not(:empty)::after {
-    margin-left: .5em; /* Отступ текста от правой линии */
+    margin-left: .5em;
   }
 
 .input-group {
     border: 1px solid #ccc;
     padding: 10px;
     display: flex;
-    flex-direction: column; /* Label над input */
+    flex-direction: column;
     width: 250px;
   }
   .input-group label {
