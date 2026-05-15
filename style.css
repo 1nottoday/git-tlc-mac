@@ -32,9 +32,13 @@
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  
+  /*justify-content: center;*/
   padding: 10px;
-  
+  /*flex-direction: column;
+  justify-content: flex-start;
+  align-self:center;
+  padding: 100px;*/
+}
 .design-panel {
   width: 100%;
   max-width: 540px;
@@ -48,7 +52,12 @@
   margin: 40px;
 
   
-
+  /*float: left;
+  height: 800px;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left: 80px;*/
 }
 
 .logo{
@@ -58,10 +67,16 @@
   justify-self: start;
   align-self: start;
   margin-top: 10%;            
-  margin-left: 10%;   
+  margin-left: 10%; 
+
+  /*
+  top: 80px;          
+  left: 120px;         
+  width: 200px;        
+  opacity: 0.8; */   
 }
 
-
+}
 body{
     background-color: #EFF6FF;
     
@@ -71,6 +86,9 @@ h2{
     color:#7B8A92;
     font-weight: 600;
     margin-bottom: 8px;
+    /*display: flex;
+    align-content: space-around;
+    font-weight: bold;*/
 }
 h3{
     font-size: 20px;
@@ -92,7 +110,10 @@ h3{
   color: #ffffff;
   font-weight: 100;
   font-size: 14px;
-  cursor: pointer;
+  /*font-size: 10px;
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;*/
 }
 
 .Linkedin{
@@ -104,7 +125,10 @@ h3{
   color: #ffffff;
   font-weight: 100;
   font-size: 14px;
-  cursor: pointer;
+  /*font-size: 10px;
+  color: #FFFFFF;
+  display: inline-flex; 
+  align-items: center; */
 }
 
 .divider {
@@ -131,7 +155,70 @@ h3{
   .divider:not(:empty)::after {
     margin-left: .5em;
   }
+/*.email-phone {
+  display: flex;
+  gap: 20px;                 
+  width: 100%;               
+  max-width: 600px;
+  flex-direction:row;
+}
 
+.form-email-phone {
+  flex: 1;              
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.form-email-phone input {
+  width: 100%;
+  height: 50px;            
+  padding: 15px;           
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #e0e0e0; 
+  border-radius: 6px;       
+  box-sizing: border-box;    
+  outline: none;
+  transition: border-color 0.2s ease;
+  color: #AFAFAF;
+}
+.email {
+  color: #AFAFAF
+  flex: 1;
+  position: relative;
+  border-bottom: 1px solid #e1e4e6;
+  padding-bottom: 5px;
+}
+#email {
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  color: #AFAFAF
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 4px 0;
+}
+.phone {
+  display: block;
+  color: #AFAFAF
+  font-size: 14px;
+  margin-bottom: 4px;
+  position: relative;
+  border-bottom: 1px solid #e1e4e6;
+  padding-bottom: 5px;
+}
+#phone {
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  color: #AFAFAF
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 4px 0;
+}*/
 .email-phone {
   display: flex;
   gap: 20px;
