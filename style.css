@@ -11,17 +11,18 @@
 }
 .first{
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   box-sizing: border-box;
   background-color: #FFFFFF;
   font-family: "Barlow";
   width: 100%;
-  
+  margin: 60px;
+  max-width: 1200px;
 }
 .design{
   max-width: 700px;
   display: grid;
-  margin: 30px;
+  margin: 0px;
   place-items: center;
 }
 .design > img {
@@ -33,12 +34,13 @@
   display: flex;
   align-items: center;
   /*justify-content: center;*/
-  padding: 10px;
+  padding: 0px;
   
 }
 .design-panel {
   width: 100%;
   max-width: 540px;
+  margin: 30px;
 }
 
 .bg {
@@ -46,7 +48,7 @@
   width: 600px;
   max-width: 100%;  
   z-index: 1;
-  margin: 40px;
+  margin: 0px;
 
 }
 
@@ -60,7 +62,6 @@
   margin-left: 10%; 
   
 }
-
 
 body{
     background-color: #EFF6FF;
