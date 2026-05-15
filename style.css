@@ -32,13 +32,9 @@
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  /*justify-content: center;*/
+  
   padding: 10px;
-  /*flex-direction: column;
-  justify-content: flex-start;
-  align-self:center;
-  padding: 100px;*/
-}
+  
 .design-panel {
   width: 100%;
   max-width: 540px;
@@ -52,12 +48,7 @@
   margin: 40px;
 
   
-  /*float: left;
-  height: 800px;
-  padding-top: 40px;
-  padding-right: 25px;
-  padding-bottom: 50px;
-  padding-left: 80px;*/
+
 }
 
 .logo{
@@ -80,9 +71,6 @@ h2{
     color:#7B8A92;
     font-weight: 600;
     margin-bottom: 8px;
-    /*display: flex;
-    align-content: space-around;
-    font-weight: bold;*/
 }
 h3{
     font-size: 20px;
